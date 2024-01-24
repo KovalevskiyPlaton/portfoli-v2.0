@@ -1,0 +1,43 @@
+.hrContainer{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+
+
+.headerSetting>h2{
+    font-size: 3rem;
+    margin-left: 20px;
+    color: brown;
+}
+ .myHr{
+    box-shadow: inset 0 15px 12px -11px rgba(214, 100, 7, 0.15);
+    height: 12px;
+    border: 0;
+}
+
+
+
+@media(max-width:707px){
+    .headerSetting>h2{
+      font-size: 1.9rem;
+    }
+  }
+
+  @media(max-width:462px){
+    .headerSetting>h2{
+      font-size: 1.5rem;
+    }
+  }
+
+  @media(max-width:373px){
+    .headerSetting>h2{
+      font-size: 0.9rem;
+    }
+    .hrContainer{
+      margin-top: 70px;
+   }
+  }
+  
+

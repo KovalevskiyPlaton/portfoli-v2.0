@@ -1,0 +1,54 @@
+.container__myPhtoto{
+    display: flex;
+    margin-left: 60px;
+    
+}
+
+.myPhtoto {
+    width: 566px;
+    height: 755px;
+    border-radius:10%;
+}
+   
+.container__myPhtoto > button{
+    top: 745px;
+    position: absolute;
+    width: 565.99px;
+    height: 70px;
+    margin-top: 20px;
+    background-color: #f8af7b;
+    border: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+@media(max-width:1512px){
+    .myPhtoto {
+        width: 75%;
+        height: 95%;
+        margin-bottom: 10px;
+        margin-left:-60px;
+    }
+    .container__myPhtoto > button{
+        top: 94%;
+        width: 380px;
+        height: 60px;
+        margin-left:-60px;
+    }
+}
+
+@media(max-width:1263px){
+    .myPhtoto {
+        width: 300px;
+        margin-left:0px;
+    }
+    .container__myPhtoto > button{
+        font-size: 20px;
+        width: 300px;
+        margin-left:0;
+    }
+}
+
